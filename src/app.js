@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import SetState from './components/set-state';
+import BaseSyntax from './components/base-syntax';
+import FunctionComponent from './components/function';
+
 
 export default class App extends Component {
   constructor(props) {
@@ -29,6 +33,9 @@ export default class App extends Component {
         <h5>总结： setState只有在合成事件和⽣命周期函数中是异步的，在原⽣事件和setTimeout中都是同步
 的，这⾥的异步其实是批量更新。</h5>
         <button onClick={this.setCounter}>{counter}</button>
+        <BaseSyntax />
+        <SetState />
+        <FunctionComponent/>
       </div>
     )
   }

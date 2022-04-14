@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import StateChild from './state-child';
 
 export default class setState extends Component {
   constructor(props) {
@@ -18,6 +19,7 @@ export default class setState extends Component {
         <h1>hello,setState</h1>
         <h3>{ counter}</h3>
         <button onClick={this.toAdd}>{counter}</button>
+        <StateChild />
       </div>
     );
   }

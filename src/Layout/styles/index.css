@@ -1,0 +1,14 @@
+.top {
+  background-color: blueviolet;
+}
+
+.bottom {
+  background-color: brown;
+}
+
+.common {
+  height: 200px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
